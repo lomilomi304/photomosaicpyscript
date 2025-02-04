@@ -4,13 +4,6 @@ This script transforms a source image into a mosaic by:
 3. Matching each cell with the most suitable tile from an image collection
 4. Assembling these tiles to create a mosaic version of the original image
 
-- **Multiple Tile Shapes**: Choose between rectangular, circular, or diamond-shaped tiles
-- **Smart Color Matching**: Uses both RGB and HSV color spaces for accurate matching
-- **Tile Usage Control**: Prevents overuse of similar tiles for better variety
-- **Multi-threading**: Parallel processing for faster execution
-- **Progress Tracking**: Visual progress bars for long operations
-- **Customizable Settings**: Control tile sizes, reuse limits, and more
-
 required packages:
 [python3 -m venv 'name'] -> source 'name'/bin/activate
 (pip install Pillow numpy tqdm scipy)
