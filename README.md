@@ -21,7 +21,8 @@ required packages:
 | --shape | Shape of the tiles | rectangle | rectangle, circle, diamond |
 | --threads | Number of processing threads | 4 | Positive integer |
 
-eg: python mosaic.py main_image.png photos --tile-width 30  --tile-height 30 --max-reuse 2 --shape rectangle --threads 2 --output custom_mosaic.png
+eg: ```
+python mosaic.py main_image.png photos --tile-width 30  --tile-height 30 --max-reuse 2 --shape rectangle --threads 2 --output custom_mosaic.png ```
 
 
 ## Image Dataset
